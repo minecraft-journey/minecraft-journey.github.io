@@ -12,21 +12,38 @@ body{
     background-size: cover;
 
     li{
-        display: inline-block;
-        list-style: none;
-      };
+      display: inline-block;
+      list-style: none;
+    };
 
-      li:not(.list1){
+    li:not(.list1){
         margin-left: 20px;
       };
 
-      li{
+    li{
         display: inline-block;
-      };
+    };
 
     #snsicon{
         width: 60px;
         height: 60px;
+    };
+
+    #hr_anim{
+      display: block;
+      position: relative;
+    };
+
+    #hr_anim::after{
+      content: "";
+      display: block;
+      height: 1px;
+      width: 0;
+      transform: translateX(-50%);
+      transition: 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+      position: absolute;
+      bottom: 0;
+      left: 50%;
     };
 
     .side_img{

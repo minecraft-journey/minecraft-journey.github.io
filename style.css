@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body{
+    text-align: center;
+    font-family: "Shippori Mincho B1", serif;
+    color: #ffffff;
+
+    /*--background関係--*/
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #000000;
+    background-image: url(image/BOATBY.png),url(image/OCEAN.png);
+    background-size: cover;
+
+    li{
+        display: inline-block;
+        list-style: none;
+      };
+
+      li:not(.list1){
+        margin-left: 20px;
+      };
+
+      li{
+        display: inline-block;
+      };
+
+    #snsicon{
+        width: 60px;
+        height: 60px;
+    };
+
+    .side_img{
+      display: inline-block;
+      width: 522px;
+      height: 353px;
+    };
+
+    #side_img_profile{
+        width: 256px;
+        height: 256px;
+        display: inline-block;
+    };
+
+    .side_text{
+        display: inline-block;
+        text-align: left;
+        margin-left: 30px;
+        vertical-align: top;
+    };
+};

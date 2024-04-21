@@ -69,5 +69,7 @@ body{
       background-color: #00000060;
       margin-left: 0px;
       margin-right: 0px;
+      position: absolute;
+      bottom: 0px;
     };
 };

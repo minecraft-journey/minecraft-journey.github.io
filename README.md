@@ -2,6 +2,11 @@
 
 考察の海旅サーバーの公式サイトです。
 
+### 作者
+- green_end100 (鯖主/オーナー)
+- a1_dao (デザイン作成)
+- moku21 (何してるのこの人？)
+
 ## 招待リンク
 - [https://discord.gg/qnQnSsUBBc](https://discord.gg/qnQnSsUBBc)
 

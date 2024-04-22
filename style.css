@@ -15,6 +15,14 @@ body{
       margin-right: 150px;
     };
 
+    #invite_button{
+      background-color: #018c17
+    };
+
+    #invite_button :hover{
+      background-color: #7003ab
+    };
+
     li{
       display: inline-block;
       list-style: none;

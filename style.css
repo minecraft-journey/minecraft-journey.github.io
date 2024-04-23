@@ -2,6 +2,7 @@
 body{
   /*--テキスト関係--*/
     text-align: center;
+    padding: 0px;
     font-family: "Shippori Mincho B1", serif;
     color: #ffffff;
 

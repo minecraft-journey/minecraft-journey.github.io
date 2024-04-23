@@ -4,6 +4,7 @@ body{
   margin:0px;
   padding: 0px;
     text-align: center;
+    margin: 0px;
     font-family: "Shippori Mincho B1", serif;
     color: #ffffff;
     overflow-x: hidden;
@@ -112,9 +113,8 @@ body{
 
     footer{
       background-color: #00000060;
-      margin-left: 0px;
-      margin-right: 0px;
-      margin-top: auto;
+      margin: 0px;
+      padding: 0px;
     };
 
     .fune1{

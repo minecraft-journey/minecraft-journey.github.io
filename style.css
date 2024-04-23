@@ -1,19 +1,59 @@
 @charset "UTF-8";
 body{
   /*--テキスト関係--*/
+  margin:0px;
+  padding: 0px;
     text-align: center;
     font-family: "Shippori Mincho B1", serif;
     color: #ffffff;
-
-    /*--background関係--*/
+    overflow-x: hidden;
     background-color: #000000;
     background-image: url(image/BOATBY.png),url(image/OCEAN.png);
     background-size: cover;
 
+
+
     #main_intro{
-      margin-left: 150px;
-      margin-right: 150px;
+    /*--background関係--*/
+
     };
+
+    #si{
+      padding-top:0px;
+      margin-top:-20px;
+    }
+
+    .sidebar {
+      background-color: #895aa150;
+      margin-top:0px;
+      width:200px;
+      height: 100%;
+      text-align:center;
+    } 
+
+    .main {
+      
+      width:100%;
+      height:100%;
+      text-align:center;
+      padding-left:50px;
+      padding-right:50px;
+
+      margin-left:0px;  /*サイドバーとメインコンテンツの間の隙間*/
+
+
+
+
+
+    }
+
+    article{
+      display: flex;
+    }
+
+    .title{
+      font-size:xx-large;
+    }
 
     li{
       display: inline-block;
@@ -36,6 +76,7 @@ body{
     #hr_anim{
       display: block;
       position: relative;
+      width: 100%;
     };
 
     #hr_anim::after{
@@ -75,4 +116,9 @@ body{
       margin-right: 0px;
       margin-top: auto;
     };
+
+    .fune1{
+      width: 100%;
+    }
+
 };

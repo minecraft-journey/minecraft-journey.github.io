@@ -5,36 +5,61 @@
        <title>マイクラ考察の海旅公式サイト</title>
        <link rel="stylesheet" href="style.css">
        <meta name="google-site-verification" content="bOfBi7QQB0Cdi_jikEZAcH1VHhcvHSOrapEBDVYZRUY" /> <!--Google用のトークン 消さないでね-->
-
+       <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     </head>
     <body>
-        <header>
-            <h1>マイクラ考察の海旅 公式サイト</h1>
-        </header>
-        <div id="main_intro">
-        <div id="hr_anim"><hr></div>
-        <h2>サーバー概要</h2>
-        <p>
-        minecraftの考察をより快適にするために作られたDiscordサーバーです。<br>
-        考察はもちろん、オフトピックスで雑談や作っている作品の共有もできます。<br>
-        </p>
-        <br>
-        <img class="side_img" src="image/考察解説forum.png">
-        <p class="side_text" >
-           フォーラム機能を使った快適な考察が可能!
-        </p>
-        <h2>船長</h2>
-        <img id="side_img_profile" src="image/eRik_wink_wave.png">
-        <p class="side_text">
-            【名前】エリック(eRik)<br>
-            【役職】エリック☔<br>
-            マイクラ考察の海旅を管理しているエンダーマン。<br>
-            Discord:green_end100<br>
-            <a href="https://www.youtube.com/@greenend2224" target="_blank"><img id="snsicon" src="image/youtube.svg"></a>
-        </p>
-        </div>
+
+
+
+        <article>
+            
+            
+            <div id="si"></div>
+            
+            <div class="main">
+
+                <div id="main_intro">
+                    <h1 id="title">マイクラ考察の海旅 公式サイト</h1>
+                <div id="hr_anim"><hr></div>　<!--区切り線-->
+
+
+
+                <h2>サーバー概要</h2>
+                <p>
+                minecraftの考察をより快適にするために作られたDiscordサーバーです。<br>
+                考察はもちろん、オフトピックスで雑談や作っている作品の共有もできます。<br>
+                </p>
+                <br>
+                <img class="side_img" src="image/考察解説forum.png">
+                <p class="side_text" >
+                フォーラム機能を使った快適な考察が可能!
+                </p>
+                <h2>船長</h2>
+                <img id="side_img_profile" src="image/eRik_wink_wave.png">
+                <p class="side_text">
+                    【名前】エリック(eRik)<br>
+                    【役職】エリック☔<br>
+                    マイクラ考察の海旅を管理しているエンダーマン。<br>
+                    Discord:green_end100<br>
+                <a href="https://www.youtube.com/@greenend2224" target="_blank"><img id="snsicon" src="image/youtube.svg"></a>
+                </p>
+                </div>
+
+            </div>
+
+        </article>
+
+
         <footer>
             @GREENEND 2024
         </footer>
+
+        <script>
+            fetch("sidebar.html")
+            .then ((response)=>response.text())
+            .then((data)=>document.querySelector("#si").innerHTML=data);
+
+        </script>
+
     </body>
 </html>

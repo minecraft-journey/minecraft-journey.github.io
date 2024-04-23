@@ -71,8 +71,6 @@ body{
 
     footer{
       background-color: #00000060;
-      margin-left: 0px;
-      margin-right: 0px;
-      margin-top: auto;
+      margin: 0px;
     };
 };

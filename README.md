@@ -1,4 +1,4 @@
-# minecraft-journey.github.io
+# [minecraft-journey.github.io](https://minecraft-journey.github.io/)
 
 考察の海旅サーバーの公式サイトです。
 

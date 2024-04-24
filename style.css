@@ -137,4 +137,17 @@ body{
      color: #d6abff;
       font-size:90%;
     }
+
+    .iei{
+      padding-top:10px;
+      margin-bottom: 10px
+    }
+
+    .sanka{
+      margin-top:2px;
+    }
+
+    .sidebarimage:hover{
+      filter:brightness(1.5);
+    }
 };

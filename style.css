@@ -125,12 +125,16 @@ body{
       width: 100%;
     }
 
-    #sidebarlink{
+    #sidebarlink{ /*サイドバーのリンク*/
       color: #ffffff;
       text-decoration: none;
       font-weight: bold;
     }
-    #sidebarlink:hover{
+    #sidebarlink:hover{/*サイドバーのリンク　ホバー時*/
       color: #d6abff;
      }
+    #sidebarlink:active{/*サイドバーのリンク　クリック時*/
+     color: #d6abff;
+      font-size:90%;
+    }
 };

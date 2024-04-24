@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <meta name=”viewport” content=”width=device-width,initial-scale=1″>
+       <title>お問い合わせ-マイクラ考察の海旅公式サイト</title>
+       <link rel="stylesheet" href="style.css">
+       <meta name="google-site-verification" content="bOfBi7QQB0Cdi_jikEZAcH1VHhcvHSOrapEBDVYZRUY" /> <!--Google用のトークン 消さないでね-->
+       <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    </head>
+    <body>
+
+        <script>
+            fetch("sidebar.html")
+            .then ((response)=>response.text())
+            .then((data)=>document.querySelector("#si").innerHTML=data);
+
+        </script>
+
+
+        <article>
+            
+            
+            <div id="si"></div>
+            <article>
+            
+            
+                <div id="si"></div>
+                
+                <div class="main">
+    
+                    <div id="main_intro">
+                        <h1 id="title">マイクラ考察の海旅 公式サイト</h1>
+                    <div id="hr_anim"><hr></div> <!--区切り線-->
+    
+                        <p>お問い合わせは"forum link"から</p>
+                        
+                        <p>公式サイトの不具合･要望は<a href="https://github.com/minecraft-journey/minecraft-journey.github.io/issues">こちら</a></p>
+                    </div>
+    
+                </div>
+    
+            </article>
+    
+    
+            <footer>
+                @GREENEND 2024
+            </footer>
+    
+    
+        </body>
+    </html>

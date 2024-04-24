@@ -1,4 +1,7 @@
 @charset "UTF-8";
+html{
+  height: 100%;
+}
 body{
   /*--テキスト関係--*/
   margin:0px;
@@ -11,6 +14,7 @@ body{
     background-color: #000000;
     background-image: url(image/BOATBY.png),url(image/OCEAN.png);
     background-size: cover;
+    height:100%;
 
 
 
@@ -54,6 +58,7 @@ body{
 
     article{
       display: flex;
+      height: 100%;
     }
 
     .title{

@@ -16,13 +16,6 @@ body{
     background-size: cover;
     height:100%;
 
-
-
-    #main_intro{
-    /*--background関係--*/
-    /*ここ空だからエラー出るけどまあしゃあないねbyMoku*/
-    };
-
     #si{ /*画像が20px下にズレるなら-20px下に動かせばいいんですよね*/
       padding-top:0px;
       margin-top:-20px;
